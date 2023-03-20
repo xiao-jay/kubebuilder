@@ -55,6 +55,7 @@ LD_FLAGS=-ldflags " \
 .PHONY: build
 build: ## Build the project locally
 	go build $(LD_FLAGS) -o bin/kubebuilder ./cmd
+	mv ./bin/kubebuilder $(GOBIN)/kubebuilder
 
 .PHONY: install
 install: build ## Build and install the binary with the current source code. Use it to test your changes locally.

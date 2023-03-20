@@ -54,6 +54,7 @@ Alpha subcommands are for unstable features.
 	for i := range alphaCommands {
 		alpha.AddCommand(alphaCommands[i])
 	}
+	alpha.AddCommand(c.newAlphaGenerateCommand())
 	return alpha
 }
 
