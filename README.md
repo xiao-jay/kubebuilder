@@ -1,6 +1,10 @@
 ## kubebuilder alpha generate cmd demo
 
 This example demonstrates how to use kubebuilder alpha generate cmd to re-scaffold a newest project
+[kubebuilder genrate code](https://github.com/xiao-jay/kubebuilder/commit/3613db1d9414c6f9a80548903c0671463ae1471e#diff-1eeb45815f0548023fd92bd62a3cd54c2e4aa6ea057d512c6820342df329bde6)
+
+example [re-scaffold v4 project](./example-rescaffold-v4) based on project-v3,
+
 
 usage:
 ```shell
